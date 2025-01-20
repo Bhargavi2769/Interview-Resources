@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #385069;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.profile-header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    transition: transform 0.2s;
+    background-color: #f1f1f1;
+}
+
+.card img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.dark-theme {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+    margin-top: 10px;
+}
